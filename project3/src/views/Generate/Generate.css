@@ -1,0 +1,100 @@
+.generate-page {
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background: #f7f5f2;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.generate-page h2 {
+  color: #3a3d98;
+  margin-bottom: 20px;
+}
+
+.generate-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto 20px auto;
+  gap: 10px;
+}
+
+.generate-form input[type="text"],
+.generate-form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.tags-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tag-button {
+  background: #000;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.tag-button:hover {
+  background: #3a3d98;
+  transform: scale(1.05);
+}
+
+.selected-ingredients {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto 20px auto;
+}
+
+.selected-ingredients p {
+  background: #3a3d98;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-container button {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.button-container button:hover {
+  background: #585ba0;
+  transform: scale(1.1);
+}
+
+.button-container button:active {
+  transform: scale(0.95);
+  background: #40457a;
+}
